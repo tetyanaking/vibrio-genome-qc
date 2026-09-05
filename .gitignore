@@ -1,0 +1,29 @@
+# Nextflow artifacts
+.nextflow/
+.nextflow.log*
+work/
+results/
+
+# Host-specific configuration
+conf/local.config
+data/metadata.csv
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# OS-specific artifacts
+.DS_Store
+Thumbs.db
+*Zone.Identifier*
+
+# Validation simulation and temporary run outputs
+validation_kraken2/sim/
+validation_kraken2/results/
+validation_kraken2/run_all.log
+validation_pipeline/local_samplesheet.csv
+validation_pipeline/sim/
+taxdump/

@@ -1,0 +1,16 @@
+sample_id	workload	category	n_reads	tp	fn	fp	tn	sens_genus_vibrio	spec_genus_vibrio	prec_genus_vibrio	acc_species_within_vibrio
+pure_V_cholerae_ASM836960v1	pure	positive	100000	99946	54	0	0	0.9995		1.0	0.9336
+pure_V_parahaemolyticus_RIMD_2210633	pure	positive	100000	99499	501	0	0	0.995		1.0	0.8726
+pure_V_vulnificus_CMCP6	pure	positive	100000	99879	121	0	0	0.9988		1.0	0.9912
+pure_V_alginolyticus_NBRC_15630	pure	positive	100000	99355	645	0	0	0.9936		1.0	0.5317
+pure_V_anguillarum_775	pure	positive	100000	99966	34	0	0	0.9997		1.0	0.8718
+pure_V_harveyi_ATCC_BAA_1116	pure	positive	100000	97291	2709	0	0	0.9729		1.0	0.0
+pure_P_profundum_ASM15342v1	pure	near	100000	0	0	993	99007		0.9901	0.0	
+pure_A_salmonicida_LFI1238	pure	near	100000	0	0	0	100000		1.0		
+pure_A_hydrophila_ATCC_7966	pure	near	100000	0	0	18	99982		0.9998	0.0	
+pure_G_hollisae_CIP_101886	pure	near	100000	0	0	2	99998		1.0	0.0	
+pure_S_oneidensis_MR_1	pure	near	100000	0	0	0	100000		1.0		
+pure_E_coli_K12_MG1655	pure	distant	100000	0	0	5	99995		1.0	0.0	
+pure_E_faecalis_V583	pure	distant	100000	0	0	0	100000		1.0		
+pure_S_aureus_NCTC_8325	pure	distant	100000	0	0	1	99999		1.0	0.0	
+mock_community	mock	mixed	1200000	595936	4064	602	599398	0.9932	0.999	0.999	0.7002

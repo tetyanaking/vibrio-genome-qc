@@ -1,0 +1,15 @@
+sample_id	expected_call	expected_genus	kraken2_top_genus	kraken2_top_pct	contamination_post	gunc_pass	pipeline_verdict	genus_correct	verdict_correct
+A_hydrophila_ATCC_7966	non_target_near	Aeromonas	Aeromonas	99.46			contaminated	True	True
+A_salmonicida_LFI1238	non_target_near	Aliivibrio	Legionella	99.97			contaminated	True	True
+E_coli_K12_MG1655	non_target_distant	Escherichia	Escherichia	15.61			contaminated	True	True
+E_faecalis_V583	non_target_distant	Enterococcus	Enterococcus	99.65			contaminated	True	True
+G_hollisae_CIP_101886	non_target_near	Grimontia	Staphylococcus	93.47			contaminated	True	True
+P_profundum_ASM15342v1	non_target_near	Photobacterium	Photobacterium	55.69	0.03		clean	True	True
+S_aureus_NCTC_8325	non_target_distant	Staphylococcus	Staphylococcus	95.55			contaminated	True	True
+S_oneidensis_MR_1	non_target_near	Shewanella	Buchnera	99.51			contaminated	True	True
+V_alginolyticus_NBRC_15630	target	Vibrio	Vibrio	99.3	0.54		clean	True	True
+V_anguillarum_775	target	Vibrio	Vibrio	99.94	0.03		clean	True	True
+V_cholerae_ASM836960v1	target	Vibrio	Vibrio	99.92	0.0		clean	True	True
+V_harveyi_ATCC_BAA_1116	target	Vibrio	Vibrio	97.12	0.01		clean	True	True
+V_parahaemolyticus_RIMD_2210633	target	Vibrio	Vibrio	99.44	0.04		clean	True	True
+V_vulnificus_CMCP6	target	Vibrio	Vibrio	99.86	0.05		clean	True	True

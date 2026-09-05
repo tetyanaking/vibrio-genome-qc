@@ -1,0 +1,9 @@
+title: "Vibrio Genome QC"
+subtitle: "Assembly and contamination QC report"
+report_comment: >
+    Cohort-level QC summary covering read quality (fastp), taxonomic
+    classification (Kraken2), assembly quality (CheckM2, BUSCO), and
+    chimerism/contamination screening (GUNC).
+    
+show_analysis_paths: false
+show_analysis_time: false

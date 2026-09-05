@@ -1,0 +1,4 @@
+expected_call	n	verdict_correct	verdict_wrong	genus_correct	genus_wrong
+non_target_distant	3	3	0	3	0
+non_target_near	5	5	0	5	0
+target	6	6	0	6	0

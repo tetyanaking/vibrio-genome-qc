@@ -1,0 +1,15 @@
+accession	category	species	taxid	label
+GCF_008369605.1	positive	Vibrio_cholerae	666	V_cholerae_ASM836960v1
+GCF_000196095.1	positive	Vibrio_parahaemolyticus	670	V_parahaemolyticus_RIMD_2210633
+GCF_000039765.1	positive	Vibrio_vulnificus	672	V_vulnificus_CMCP6
+GCF_000354175.2	positive	Vibrio_alginolyticus	663	V_alginolyticus_NBRC_15630
+GCF_000217675.1	positive	Vibrio_anguillarum	55601	V_anguillarum_775
+GCF_000772105.1	positive	Vibrio_harveyi	669	V_harveyi_ATCC_BAA_1116
+GCF_000153425.1	near	Photobacterium_profundum	74109	P_profundum_ASM15342v1
+GCF_000091785.1	near	Aliivibrio_salmonicida	40269	A_salmonicida_LFI1238
+GCF_000014805.1	near	Aeromonas_hydrophila	644	A_hydrophila_ATCC_7966
+GCF_000330825.1	near	Grimontia_hollisae	28421	G_hollisae_CIP_101886
+GCF_000009605.1	near	Shewanella_oneidensis	70863	S_oneidensis_MR_1
+GCF_000005845.2	distant	Escherichia_coli	562	E_coli_K12_MG1655
+GCF_000393015.1	distant	Enterococcus_faecalis	1351	E_faecalis_V583
+GCF_000013425.1	distant	Staphylococcus_aureus	1280	S_aureus_NCTC_8325

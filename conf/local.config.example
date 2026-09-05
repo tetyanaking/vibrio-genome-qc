@@ -1,0 +1,44 @@
+/*
+ * Copy this file to:
+ *
+ *     conf/local.config
+ *
+ * and edit the paths below for your computer.
+ */
+
+
+params {
+
+    /*
+     * CheckM2 database
+     */
+    checkm2_db = "/path/to/CheckM2_database/uniref100.KO.1.dmnd"
+
+     /*
+     * BUSCO database
+     */
+    busco_download_path = "/path/to/busco"
+
+    /*
+     * BUSCO lineage. Matches the pipeline's default (genus Vibrio) —
+     * only change this if you've adapted the pipeline to another
+     * organism (see "Adapting Validation for Other Bacteria" in the
+     * README).
+     */
+    busco_lineage = "vibrionales_odb10"
+    
+    /*
+     * GUNC database
+     */
+    gunc_db = "/path/to/gunc_db_progenomes2.1.dmnd"
+    
+    /*
+     * Kraken2 database (recommended k2_standard_16_GB_20260626)
+     */
+    kraken2_db = "/path/to/kraken2_db"
+
+}
+
+env {
+    BUSCO_DOWNLOAD_PATH = "/path/to/busco_tool"
+}

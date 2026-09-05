@@ -1,0 +1,76 @@
+sample_id	workload	category	n_reads	tp	fn	fp	tn	sens_genus_vibrio	spec_genus_vibrio	prec_genus_vibrio	acc_species_within_vibrio	confidence
+pure_V_cholerae_ASM836960v1	pure	positive	100000	99946	54	0	0	0.9995		1.0	0.9336	0.00
+pure_V_parahaemolyticus_RIMD_2210633	pure	positive	100000	99499	501	0	0	0.995		1.0	0.8726	0.00
+pure_V_vulnificus_CMCP6	pure	positive	100000	99879	121	0	0	0.9988		1.0	0.9912	0.00
+pure_V_alginolyticus_NBRC_15630	pure	positive	100000	99355	645	0	0	0.9936		1.0	0.5317	0.00
+pure_V_anguillarum_775	pure	positive	100000	99966	34	0	0	0.9997		1.0	0.8718	0.00
+pure_V_harveyi_ATCC_BAA_1116	pure	positive	100000	97291	2709	0	0	0.9729		1.0	0.0	0.00
+pure_P_profundum_ASM15342v1	pure	near	100000	0	0	993	99007		0.9901	0.0		0.00
+pure_A_salmonicida_LFI1238	pure	near	100000	0	0	0	100000		1.0			0.00
+pure_A_hydrophila_ATCC_7966	pure	near	100000	0	0	18	99982		0.9998	0.0		0.00
+pure_G_hollisae_CIP_101886	pure	near	100000	0	0	2	99998		1.0	0.0		0.00
+pure_S_oneidensis_MR_1	pure	near	100000	0	0	0	100000		1.0			0.00
+pure_E_coli_K12_MG1655	pure	distant	100000	0	0	5	99995		1.0	0.0		0.00
+pure_E_faecalis_V583	pure	distant	100000	0	0	0	100000		1.0			0.00
+pure_S_aureus_NCTC_8325	pure	distant	100000	0	0	1	99999		1.0	0.0		0.00
+mock_community	mock	mixed	1200000	595936	4064	602	599398	0.9932	0.999	0.999	0.7002	0.00
+pure_V_cholerae_ASM836960v1	pure	positive	100000	98465	1535	0	0	0.9847		1.0	0.4405	0.05
+pure_V_parahaemolyticus_RIMD_2210633	pure	positive	100000	97489	2511	0	0	0.9749		1.0	0.326	0.05
+pure_V_vulnificus_CMCP6	pure	positive	100000	98444	1556	0	0	0.9844		1.0	0.918	0.05
+pure_V_alginolyticus_NBRC_15630	pure	positive	100000	97449	2551	0	0	0.9745		1.0	0.0199	0.05
+pure_V_anguillarum_775	pure	positive	100000	98392	1608	0	0	0.9839		1.0	0.1752	0.05
+pure_V_harveyi_ATCC_BAA_1116	pure	positive	100000	92381	7619	0	0	0.9238		1.0	0.0	0.05
+pure_P_profundum_ASM15342v1	pure	near	100000	0	0	13	99987		0.9999	0.0		0.05
+pure_A_salmonicida_LFI1238	pure	near	100000	0	0	0	100000		1.0			0.05
+pure_A_hydrophila_ATCC_7966	pure	near	100000	0	0	0	100000		1.0			0.05
+pure_G_hollisae_CIP_101886	pure	near	100000	0	0	0	100000		1.0			0.05
+pure_S_oneidensis_MR_1	pure	near	100000	0	0	0	100000		1.0			0.05
+pure_E_coli_K12_MG1655	pure	distant	100000	0	0	0	100000		1.0			0.05
+pure_E_faecalis_V583	pure	distant	100000	0	0	0	100000		1.0			0.05
+pure_S_aureus_NCTC_8325	pure	distant	100000	0	0	0	100000		1.0			0.05
+mock_community	mock	mixed	1200000	582620	17380	6	599994	0.971	1.0	1.0	0.3133	0.05
+pure_V_cholerae_ASM836960v1	pure	positive	100000	65363	34637	0	0	0.6536		1.0	0.1499	0.10
+pure_V_parahaemolyticus_RIMD_2210633	pure	positive	100000	67923	32077	0	0	0.6792		1.0	0.1479	0.10
+pure_V_vulnificus_CMCP6	pure	positive	100000	69395	30605	0	0	0.6939		1.0	0.5753	0.10
+pure_V_alginolyticus_NBRC_15630	pure	positive	100000	68555	31445	0	0	0.6855		1.0	0.0032	0.10
+pure_V_anguillarum_775	pure	positive	100000	67693	32307	0	0	0.6769		1.0	0.0447	0.10
+pure_V_harveyi_ATCC_BAA_1116	pure	positive	100000	64171	35829	0	0	0.6417		1.0	0.0	0.10
+pure_P_profundum_ASM15342v1	pure	near	100000	0	0	0	100000		1.0			0.10
+pure_A_salmonicida_LFI1238	pure	near	100000	0	0	0	100000		1.0			0.10
+pure_A_hydrophila_ATCC_7966	pure	near	100000	0	0	0	100000		1.0			0.10
+pure_G_hollisae_CIP_101886	pure	near	100000	0	0	0	100000		1.0			0.10
+pure_S_oneidensis_MR_1	pure	near	100000	0	0	0	100000		1.0			0.10
+pure_E_coli_K12_MG1655	pure	distant	100000	0	0	0	100000		1.0			0.10
+pure_E_faecalis_V583	pure	distant	100000	0	0	0	100000		1.0			0.10
+pure_S_aureus_NCTC_8325	pure	distant	100000	0	0	0	100000		1.0			0.10
+mock_community	mock	mixed	1200000	403100	196900	0	600000	0.6718	1.0	1.0	0.1535	0.10
+pure_V_cholerae_ASM836960v1	pure	positive	100000	11429	88571	0	0	0.1143		1.0	0.0174	0.15
+pure_V_parahaemolyticus_RIMD_2210633	pure	positive	100000	13160	86840	0	0	0.1316		1.0	0.0226	0.15
+pure_V_vulnificus_CMCP6	pure	positive	100000	13716	86284	0	0	0.1372		1.0	0.1005	0.15
+pure_V_alginolyticus_NBRC_15630	pure	positive	100000	13285	86715	0	0	0.1328		1.0	0.0003	0.15
+pure_V_anguillarum_775	pure	positive	100000	12585	87415	0	0	0.1258		1.0	0.0061	0.15
+pure_V_harveyi_ATCC_BAA_1116	pure	positive	100000	12591	87409	0	0	0.1259		1.0	0.0	0.15
+pure_P_profundum_ASM15342v1	pure	near	100000	0	0	0	100000		1.0			0.15
+pure_A_salmonicida_LFI1238	pure	near	100000	0	0	0	100000		1.0			0.15
+pure_A_hydrophila_ATCC_7966	pure	near	100000	0	0	0	100000		1.0			0.15
+pure_G_hollisae_CIP_101886	pure	near	100000	0	0	0	100000		1.0			0.15
+pure_S_oneidensis_MR_1	pure	near	100000	0	0	0	100000		1.0			0.15
+pure_E_coli_K12_MG1655	pure	distant	100000	0	0	0	100000		1.0			0.15
+pure_E_faecalis_V583	pure	distant	100000	0	0	0	100000		1.0			0.15
+pure_S_aureus_NCTC_8325	pure	distant	100000	0	0	0	100000		1.0			0.15
+mock_community	mock	mixed	1200000	76766	523234	0	600000	0.1279	1.0	1.0	0.0245	0.15
+pure_V_cholerae_ASM836960v1	pure	positive	100000	381	99619	0	0	0.0038		1.0	0.0003	0.20
+pure_V_parahaemolyticus_RIMD_2210633	pure	positive	100000	565	99435	0	0	0.0056		1.0	0.0008	0.20
+pure_V_vulnificus_CMCP6	pure	positive	100000	594	99406	0	0	0.0059		1.0	0.0038	0.20
+pure_V_alginolyticus_NBRC_15630	pure	positive	100000	576	99424	0	0	0.0058		1.0	0.0	0.20
+pure_V_anguillarum_775	pure	positive	100000	482	99518	0	0	0.0048		1.0	0.0001	0.20
+pure_V_harveyi_ATCC_BAA_1116	pure	positive	100000	606	99394	0	0	0.0061		1.0	0.0	0.20
+pure_P_profundum_ASM15342v1	pure	near	100000	0	0	0	100000		1.0			0.20
+pure_A_salmonicida_LFI1238	pure	near	100000	0	0	0	100000		1.0			0.20
+pure_A_hydrophila_ATCC_7966	pure	near	100000	0	0	0	100000		1.0			0.20
+pure_G_hollisae_CIP_101886	pure	near	100000	0	0	0	100000		1.0			0.20
+pure_S_oneidensis_MR_1	pure	near	100000	0	0	0	100000		1.0			0.20
+pure_E_coli_K12_MG1655	pure	distant	100000	0	0	0	100000		1.0			0.20
+pure_E_faecalis_V583	pure	distant	100000	0	0	0	100000		1.0			0.20
+pure_S_aureus_NCTC_8325	pure	distant	100000	0	0	0	100000		1.0			0.20
+mock_community	mock	mixed	1200000	3204	596796	0	600000	0.0053	1.0	1.0	0.0008	0.20
