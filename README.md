@@ -360,9 +360,13 @@ vibrio-genome-qc/
 
 ## Development
 
-I designed the pipeline architecture, selected and integrated the bioinformatics tools, defined the GUNC-based cleaning policy and thresholds, established MIMAG-based quality targets, and designed the validation strategy, including the Kraken2 classification sweep and a 14-isolate end-to-end benchmark.
+I designed the pipeline architecture, selected and integrated the bioinformatics tools, 
+defined the GUNC-based cleaning policy and thresholds, established MIMAG-based quality targets, 
+and designed the validation strategy, including the Kraken2 classification sweep 
+and a 14-isolate end-to-end benchmark.
 
-Implementation, testing, debugging, and documentation were developed using AI-assisted pair programming with Claude (Anthropic).
+Implementation, testing, debugging, and documentation were developed using AI-assisted pair 
+programming with Claude (Anthropic).
 
 ## Citations
 
@@ -370,6 +374,12 @@ This pipeline wraps a number of tools written by other people —
 fastp, Kraken2, Unicycler, GUNC, CheckM2, BUSCO, SeqKit, MultiQC, and
 more. Full citations for every tool are in [CITATIONS.md](CITATIONS.md);
 please cite them alongside this pipeline if you use it.
+
+It was also applied to clean whole-genome sequencing data for the study: 
+King T, Pedrueza M, Rahman M, Oh B, LaMontagne MG. Resolution of MALDI-TOF MS compared to 
+whole genome sequencing for the identification of Vibrio parahaemolyticus strains 
+isolated from oysters. Arch Microbiol. 2026 Aug 20;208(11):591. 
+[https://doi.org/10.1007/s00203-026-05142-8](https://doi.org/10.1007/s00203-026-05142-8)
 
 ## License
 
